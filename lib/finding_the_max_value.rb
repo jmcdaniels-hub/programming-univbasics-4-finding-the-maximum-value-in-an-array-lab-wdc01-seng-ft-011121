@@ -6,5 +6,5 @@ def find_max_value(scale)
     index_value = max_value[count]
     count +=1
   end 
- 
+ index_value
 end
