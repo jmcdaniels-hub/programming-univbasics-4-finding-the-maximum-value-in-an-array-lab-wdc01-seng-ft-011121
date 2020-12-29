@@ -2,9 +2,10 @@ def find_max_value(scale)
   [2,3,4,5]
   count = 0 
   while count < scale.length do
-    max_value = scale.max
-    index_value = max_value[count]
+    if max_value < scale[count]
+     max_value = scale[count]
+    end 
     count +=1
   end 
- index_value
+ max_value
 end
